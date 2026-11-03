@@ -1,0 +1,2 @@
+export const API_URL = import.meta.env.VITE_APP_BASE_URL_API;
+export const MEDIO_URL = import.meta.env.VITE_APP_BASE_URL_MEDIO;

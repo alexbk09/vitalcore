@@ -1,0 +1,184 @@
+{
+  "quotes": [
+    {
+      "id": "Q001",
+      "numero": "00001",
+      "color": "#1E6DC7",
+      "fecha": "2024-03-20",
+      "hora": "09:00",
+      "documento": "1234567890",
+      "paciente": {
+        "id": "P001",
+        "nombre": "MARÍA JOSÉ",
+        "apellido1": "RODRÍGUEZ",
+        "apellido2": "MARTÍNEZ",
+        "telefono": "3001234567",
+        "email": "maria.rodriguez@email.com",
+        "tipoDocumento": "CC",
+        "edad": 35,
+        "genero": "F"
+      },
+      "cita": "ATENCIÓN TERMINADA",
+      "citaTipo": "normal",
+      "observaciones": 2,
+      "sede": {
+        "id": "S001",
+        "nombre": "Sede Principal",
+        "direccion": "Calle 123 #45-67",
+        "ciudad": "Bogotá"
+      },
+      "especialidad": "Medicina General",
+      "medico": {
+        "id": "M001",
+        "nombre": "Dr. Juan Carlos",
+        "apellido": "Pérez",
+        "especialidad": "Medicina General"
+      },
+      "estado": "completed"
+    },
+    {
+      "id": "Q002",
+      "numero": "00002",
+      "color": "#37A844",
+      "fecha": "2024-03-21",
+      "hora": "10:30",
+      "documento": "0987654321",
+      "paciente": {
+        "id": "P002",
+        "nombre": "CARLOS ANDRÉS",
+        "apellido1": "GONZÁLEZ",
+        "apellido2": "LÓPEZ",
+        "telefono": "3109876543",
+        "email": "carlos.gonzalez@email.com",
+        "tipoDocumento": "CC",
+        "edad": 42,
+        "genero": "M"
+      },
+      "cita": "TELEMEDICINA",
+      "citaTipo": "telemedicina",
+      "observaciones": 1,
+      "sede": {
+        "id": "S002",
+        "nombre": "Sede Virtual",
+        "direccion": "Virtual",
+        "ciudad": "Bogotá"
+      },
+      "especialidad": "Psicología",
+      "medico": {
+        "id": "M002",
+        "nombre": "Dra. Ana María",
+        "apellido": "Sánchez",
+        "especialidad": "Psicología"
+      },
+      "estado": "scheduled"
+    },
+    {
+      "id": "Q003",
+      "numero": "00003",
+      "color": "#FDAA29",
+      "fecha": "2024-03-22",
+      "hora": "14:00",
+      "documento": "1122334455",
+      "paciente": {
+        "id": "P003",
+        "nombre": "LAURA PATRICIA",
+        "apellido1": "MORALES",
+        "apellido2": "DÍAZ",
+        "telefono": "3156789012",
+        "email": "laura.morales@email.com",
+        "tipoDocumento": "CC",
+        "edad": 28,
+        "genero": "F"
+      },
+      "cita": "NUEVO SEGUIMIENTO",
+      "citaTipo": "agendar",
+      "observaciones": 3,
+      "sede": {
+        "id": "S001",
+        "nombre": "Sede Principal",
+        "direccion": "Calle 123 #45-67",
+        "ciudad": "Bogotá"
+      },
+      "especialidad": "Odontología",
+      "medico": {
+        "id": "M003",
+        "nombre": "Dr. Roberto",
+        "apellido": "García",
+        "especialidad": "Odontología"
+      },
+      "estado": "new"
+    },
+    {
+      "id": "Q004",
+      "numero": "00004",
+      "color": "#E22B3A",
+      "fecha": "2024-03-23",
+      "hora": "11:15",
+      "documento": "5544332211",
+      "paciente": {
+        "id": "P004",
+        "nombre": "JOSÉ LUIS",
+        "apellido1": "TORRES",
+        "apellido2": "RAMÍREZ",
+        "telefono": "3201234567",
+        "email": "jose.torres@email.com",
+        "tipoDocumento": "CC",
+        "edad": 45,
+        "genero": "M"
+      },
+      "cita": "ATENCIÓN FALLIDA",
+      "citaTipo": "normal",
+      "observaciones": 4,
+      "sede": {
+        "id": "S001",
+        "nombre": "Sede Principal",
+        "direccion": "Calle 123 #45-67",
+        "ciudad": "Bogotá"
+      },
+      "especialidad": "Cardiología",
+      "medico": {
+        "id": "M004",
+        "nombre": "Dra. María Elena",
+        "apellido": "Vargas",
+        "especialidad": "Cardiología"
+      },
+      "estado": "failed"
+    },
+    {
+      "id": "Q005",
+      "numero": "00005",
+      "color": "#838384",
+      "fecha": "2024-03-24",
+      "hora": "15:45",
+      "documento": "6677889900",
+      "paciente": {
+        "id": "P005",
+        "nombre": "ANA LUCÍA",
+        "apellido1": "SILVA",
+        "apellido2": "MORENO",
+        "telefono": "3187654321",
+        "email": "ana.silva@email.com",
+        "tipoDocumento": "CC",
+        "edad": 31,
+        "genero": "F"
+      },
+      "cita": "ATENCIÓN DESISTIDA",
+      "citaTipo": "sin-cita",
+      "observaciones": 1,
+      "sede": {
+        "id": "S002",
+        "nombre": "Sede Virtual",
+        "direccion": "Virtual",
+        "ciudad": "Bogotá"
+      },
+      "especialidad": "Nutrición",
+      "medico": {
+        "id": "M005",
+        "nombre": "Dra. Patricia",
+        "apellido": "López",
+        "especialidad": "Nutrición"
+      },
+      "estado": "desisted"
+    }
+  ]
+} 
